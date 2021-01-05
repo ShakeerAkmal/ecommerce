@@ -3,12 +3,12 @@ using Nop.Core.Configuration;
 namespace Nop.Plugin.Payments.Manual
 {
     /// <summary>
-    /// Represents settings of manual payment plugin
+    /// Represents settings of manual payment plugins
     /// </summary>
     public class ManualPaymentSettings : ISettings
     {
         /// <summary>
-        /// Gets or sets payment transaction mode
+        /// Gets or sets payment transaction mode s 
         /// </summary>
         public TransactMode TransactMode { get; set; }
 
